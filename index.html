@@ -5,23 +5,33 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<a href="./index.html">Finance Ledger</a>
-				<ul>
-					<li>
-						<a href="#">Home</a>
-					</li>
-					<li>
-						<a href="#">About</a>
-					</li>
-					<li><a href="#">Cases</a> </li>
-					<li><a href="#">Blog</a> </li>
-					<li><a href="#">Contact</a></li>
-				</ul>
-			</nav>
+		<header class="page-header">
+			<div class="container header-container">
+				<nav class="header-nav">
+					<a class="nav-link" href="./index.html"><span class="link-color">Finance</span>Ledger</a>
+					<ul class="nav-list">
+						<li class="list-item">
+							<a href="#">Home</a>
+						</li>
+						<li class="list-item">
+							<a href="#">About</a>
+						</li>
+						<li class="list-item"><a href="#">Cases</a> </li>
+						<li class="list-item"><a href="#">Blog</a> </li>
+						<li class="list-item"><a href="#">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
 		</header>
 		<!-- Section hero -->
 		<main>
@@ -75,17 +85,17 @@
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
 				<ul>
 					<li>
-						<img src="./image/John-Doe-foto-min.jpg" alt="fohn-doe-foto" width="421" height="286">
+						<img src="./image/John-Doe-foto-min.jpg" alt="fohn-doe-foto" width="421" height="286" />
 						<h3>John Doe</h3>
 						<p>President</p>
 					</li>
 					<li>
-						<img src="./image/Jane-Doe-foto-min.jpg" alt="jane-doe-foto" width="422" height="286">
+						<img src="./image/Jane-Doe-foto-min.jpg" alt="jane-doe-foto" width="422" height="286" />
 						<h3>Jane Doe</h3>
 						<p>Vice President</p>
 					</li>
 					<li>
-						<img src="./image/Steve-Smith-foto-min.jpg" alt="steve-smith-foto" width="420" height="284">
+						<img src="./image/Steve-Smith-foto-min.jpg" alt="steve-smith-foto" width="420" height="284" />
 						<h3>Steve Smith</h3>
 						<p>Marketing Head</p>
 					</li>
@@ -110,5 +120,4 @@
 			<!--/Copyright-->
 		</footer>
 	</body>
-
 </html>
