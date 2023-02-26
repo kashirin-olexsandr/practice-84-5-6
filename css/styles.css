@@ -103,4 +103,62 @@ ul {
 	background: #28A745;
 	border-radius: 5px;
 	border-color: #28A745;
+	min-width: 168px;
 }
+
+/* ----Team---- */
+.team {
+	background-color: rgb(161, 211, 44);
+
+}
+.container {
+}
+.team-container {
+	display: flex;
+	justify-content: center;
+	padding: 0 28px 0 28px;
+}
+.img {
+	display: block;
+	width: 50%;
+}
+.team-subtitle {
+	font-size: 20px;
+	line-height: 1.65;
+	color: var(--base-text-color);	
+}
+.title {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.26;
+	color: var(--base-text-color);
+	margin-top: 8px;
+}
+
+.text {
+	font-size: 18px;
+	line-height: 1.56;
+	color: var(--base-text-color);
+	margin-top: 24px;
+}
+.team-btn {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	text-align: center;
+	color: var(--base-text-color);
+	margin-top: 24px;
+	padding: 10px 34px;
+	background: #28A745;
+	border-radius: 5px;
+	border: 1px solid var(--base-text-color);
+	min-width: 168px;
+}
+
+.team-wraper {
+	background-color: #28A745;
+	padding: 80px 64px 80px 20px;
+	width: 50%;
+}	
