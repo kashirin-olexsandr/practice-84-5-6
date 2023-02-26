@@ -1,15 +1,29 @@
 :root {
 	--base-text-color: #ffffff;
+	--secondary-color: #E9E9E9;
+	--base-title: #E9E9E9;
 }
 
-li {
-	list-style: none;
-}
 
 body {
 	font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
 /* Header  */
 
 .container {
@@ -54,4 +68,39 @@ body {
 	font-size: 35px;
 	line-height: 1.2;
 	color: var(--base-text-color);
+}
+/* hero section*/
+.hero {
+	background-color: brown;
+	padding: 287px 0;
+	text-align: center;
+}
+
+.hero-title {
+	font-weight: 300;
+	font-size: 55px;
+	line-height: 1.2;
+	color: var(--base-title);
+}
+
+.hero-description {
+	font-size: 22px;
+	line-height: 1,67;
+	color: var(--secondary-color);
+	margin-top: 24px;
+}
+
+.btn {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	text-align: center;
+	color: var(--base-text-color);
+	margin-top: 32px;
+	padding: 10px 28px;
+	background: #28A745;
+	border-radius: 5px;
+	border-color: #28A745;
 }
