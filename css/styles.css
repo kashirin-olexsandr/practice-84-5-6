@@ -1,0 +1,57 @@
+:root {
+	--base-text-color: #ffffff;
+}
+
+li {
+	list-style: none;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+/* Header  */
+
+.container {
+	width: 1360px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-container {
+	padding: 0 28px 0 28px;
+}
+
+.page-header {
+	background: black;
+}
+.header-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav-link {
+	font-size: 35px;
+	line-height: 1.2;
+	text-decoration: none;
+	color: var(--base-text-color);
+}
+
+.link-color {
+	color: #28a745;
+}
+.nav-list {
+	display: flex;
+	gap: 40px;
+	font-size: 18px;
+	line-height: 1.55;
+}
+.list-item {
+}
+
+.list-item > a {
+	text-decoration: none;
+	font-size: 35px;
+	line-height: 1.2;
+	color: var(--base-text-color);
+}
