@@ -8,13 +8,11 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-		/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
+		<!------------------------------- HEADER ------------------------->
 		<header class="page-header">
 			<div class="container header-container">
 				<nav class="header-nav">
@@ -33,33 +31,34 @@
 				</nav>
 			</div>
 		</header>
-		<!-- Section hero -->
+		<!------------------------------- /HEADER ------------------------->
 		<main>
-			<section class="hero  section">
-				<div class="container">
+			<!---------------------------- HERO SECTION ----------------------->
+			<section class="hero">
+				<div class="hero-container container">
 					<h1 class="hero-title">The Sky Is The Limit</h1>
 					<p class="hero-description">We provide world class financial assistance</p>
-					<button class="btn" type="button">Read More</button>
+					<button class="hero-btn" type="button">Read More</button>
 				</div>
 			</section>
-			<!-- /Section hero -->
-			<!-- Section 1 -->
-			<section class="team section">
-				<div class="container team-container">
-					<img class="img" src="./image/team.jpg" alt="Our team of 6 people" />
-					<div class="team-wraper">
-						<p class="team-subtitle">What you are looking for</p>
-						<h2 class="title">We provide bespoke solutions</h2>
-						<p class="text"
+			<!------------------------- /HERO SECTION----------------------->
+			<!------------------------ SOLUTIONS SECTION ------------------->
+			<section class="solutions">
+				<div class="container solutions-container">
+					<img class="solutions-img" src="./image/team.jpg" alt="Our team of 6 people" />
+					<div class="solutions-wraper">
+						<p class="solutions-subtitle">What you are looking for</p>
+						<h2 class="solutions-title">We provide bespoke solutions</h2>
+						<p class="solutions-text"
 							>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
 							asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-							iste maiores deleniti?</p
-						>
-						<button class="team-btn" type="button">Read More</button>
+							iste maiores deleniti?</p>
+						<button class="solutions-btn" type="button">Read More</button>
 				 	</div>
 				</div>
 			</section>
-			<!-- /Section 1 -->
+			<!---------------------- /SOLUTIONS SECTION ------------------->
+			<!------------------- BUSINESS CASES SECTION ------------------>
 			<section>
 				<p>This is what we do</p>
 				<h2>Business Cases</h2>
@@ -73,6 +72,8 @@
 					<li><img src="./image/BC6.jpg" alt="BisCase6" /></li>
 				</ul>
 			</section>
+			<!------------------- /BUSINESS CASES SECTION ------------------>
+			<!--------------------------- BLOG POST ------------------------>
 			<section>
 				<p>April 16 2020</p>
 				<h2>Blog Post One</h2>
@@ -84,46 +85,56 @@
 				<a href="#">Read our Block</a>
 				<img src="./image/blockpost.jpg" alt="post" />
 			</section>
-			<!--Our Professional Team section-->
-			<section>
-				<p>Who we are</p>
-				<h2>Our Professional Team</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-				<ul>
-					<li>
-						<img src="./image/John-Doe-foto-min.jpg" alt="fohn-doe-foto" width="421" height="286" />
-						<h3>John Doe</h3>
-						<p>President</p>
-					</li>
-					<li>
-						<img src="./image/Jane-Doe-foto-min.jpg" alt="jane-doe-foto" width="422" height="286" />
-						<h3>Jane Doe</h3>
-						<p>Vice President</p>
-					</li>
-					<li>
-						<img src="./image/Steve-Smith-foto-min.jpg" alt="steve-smith-foto" width="420" height="284" />
-						<h3>Steve Smith</h3>
-						<p>Marketing Head</p>
-					</li>
-				</ul>
+			<!--------------------------- /BLOG POST ------------------------>
+			<!-------------------------- TEAM SECTION ----------------------->
+			<section class="team">
+				<div class="team-container container">
+					<p class="team-subtitle">Who we are</p>
+					<h2 class="team-title">Our Professional Team</h2>
+					<p class="team-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
+					<di>
+						<ul class="team-list">
+							<li class="team-card">
+								<img class="team-card-img" src="./image/John-Doe-foto-min.jpg" alt="fohn-doe-foto" width="422" height="286" />
+								<h3 class="team-card-title">John Doe</h3>
+								<p class="team-card-text">President</p>
+							</li>
+							<li class="team-card">
+								<img class="team-card-img" src="./image/Jane-Doe-foto-min.jpg" alt="jane-doe-foto" width="422" height="286" />
+								<h3 class="team-card-title">Jane Doe</h3>
+								<p class="team-card-text">Vice President</p>
+							</li>
+							<li class="team-card">
+								<img class="team-card-img" src="./image/Steve-Smith-foto-min.jpg" alt="steve-smith-foto" width="422" height="286" />
+								<h3 class="team-card-title">Steve Smith</h3>
+								<p class="team-card-text">Marketing Head</p>
+							</li>
+							
+						</ul>
+				</di >
+				</div>
 			</section>
-			<!--/Our Professional Team section-->
+			<!------------------------- /TEAM SECTION ----------------------->
+			<!------------------------ CALLBACK SECTION --------------------->
+			<section class="callback">
+				<div class="container callback-container">
+					<img class="callback-img" src="./image/foto-callback.jpg" alt="foto-callback" width="670" height="454">
+					<div class="callback-content">
+						<h2 class="callback-title">Request Callback</h2>
+						<p class="callback-name">Enter your name</p>
+						<p class="callback-email">Enter email*</p>
+						<button class="callback-btn" type="button">Send</button>
+					</div>
+				</div>
+			</section>
+			<!----------------------- /CALLBACK SECTION --------------------->
 		</main>
-		<footer>
-			<!--links to social madia networks-->
-			<nav>
-				<ul>
-					<li><a href="" target="_blank" rel="noopener noreferrer nofollow">Facbook</a></li>
-					<li><a href="" target="_blank" rel="noopener noreferrer nofollow">Twitter</a></li>
-					<li><a href="" target="_blank" rel="noopener noreferrer nofollow">YouTube</a></li>
-					<li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
-				</ul>
-			</nav>
-			<!--/links to social madia networks-->
-
-			<!--Copyright-->
-			<p>Copyright &copy 2021 - FinanceLedger</p>
-			<!--/Copyright-->
+		<!---------------------------- FOOTER SECTION ----------------------->
+		<footer class="footer">
+			<div class="container footer-container">
+				<p class="footer-text">Copyright&copy 2021 - FinanceLedger</p>
+			</div >
 		</footer>
+		<!--------------------------- /FOOTER SECTION ----------------------->
 	</body>
 </html>
