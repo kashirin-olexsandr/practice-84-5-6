@@ -121,7 +121,6 @@ ul {
 }
 /* --------------------- SOLUTIONS SECTION --------------------- */
 .solutions {
-	background-color: rgb(161, 211, 44);
 }
 .solutions-container {
 	display: flex;
@@ -164,7 +163,16 @@ ul {
 	border: 1px solid var(--base-text-color);
 	min-width: 168px;
 }
-.solutions-wraper {
+
+/* hover and focus effect button*/
+.solutions-btn:hover,
+.solutions-btn:focus {
+	cursor: pointer;
+	border: 1px solid var(--base-green-background-color);
+	border-radius: 5px;
+}
+
+.solutions-wrapper {
 	background-color: var(--base-green-background-color);
 	padding: 80px 64px 80px 20px;
 	width: 50%;
