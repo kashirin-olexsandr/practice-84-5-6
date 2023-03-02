@@ -1,14 +1,13 @@
 :root {
 	/* color text */
 	--base-text-color: #ffffff;
-	--secondary-text-color: #E9E9E9;
+	--secondary-text-color: #e9e9e9;
 	--third-text-color: #333333;
 	/* color text*/
-	--base-title-subtitle-color: #E9E9E9;
+	--base-title-subtitle-color: #e9e9e9;
 	--secondary-title-subtitle-color: #333333;
 	/* background or border color*/
-	--base-green-background-color: #28A745;
-
+	--base-green-background-color: #28a745;
 }
 
 body {
@@ -83,7 +82,7 @@ ul {
 	padding: 287px;
 	text-align: center;
 	margin-left: auto;
-	margin-right: auto;
+	margin-right: auto; /* / Задублированая команда . У тебя на контайнере стоит марджин */
 }
 .hero-title {
 	font-weight: 300;
@@ -93,12 +92,12 @@ ul {
 }
 .hero-description {
 	font-size: 22px;
-	line-height: 1,67;
+	line-height: 1, 67;
 	color: var(--secondary-text-color);
 	margin-top: 24px;
 }
 .hero-btn {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -133,7 +132,7 @@ ul {
 .solutions-subtitle {
 	font-size: 20px;
 	line-height: 1.65;
-	color: var(--base-text-color);	
+	color: var(--base-text-color);
 }
 .solutions-title {
 	font-weight: 300;
@@ -149,7 +148,7 @@ ul {
 	margin-top: 24px;
 }
 .solutions-btn {
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -177,12 +176,12 @@ ul {
 	background-color: var(--base-green-background-color);
 	padding: 80px 64px 80px 20px;
 	width: 50%;
-}	
+}
 
 /* ---------------BUSINESS CASES SECTION------------- */
 
-.business {	
-
+.business {
+	/*  Пустые классы должны быть закоментированы */
 }
 
 .business-container {
@@ -200,12 +199,11 @@ ul {
 	line-height: 1.65;
 	text-align: center;
 	color: var(--secondary-title-subtitle-color);
-
 }
 .dusiness-title {
 	font-weight: 300;
 	font-size: 38px;
-	line-height: 1,26;
+	line-height: 1, 26;
 	text-align: center;
 	color: var(--secondary-title-subtitle-color);
 	margin-top: 24;
@@ -231,14 +229,61 @@ ul {
 	flex-basis: calc((100% - 42) / 3);
 }
 
-
-
 /* -------------------- BLOG POST ------------------- */
+
+.post-page {
+	color: #ffffff;
+}
+.post-page-container {
+	display: flex;
+}
+
+.post-wrapper {
+	background-color: #0284d0;
+	padding: 80px 56px 80px 28px;
+}
+.post-subtitle {
+	font-size: 20px;
+	line-height: 1.65;
+
+	color: #ffffff;
+}
+.post-title {
+	margin-top: 9px;
+
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1.26;
+}
+.post-text {
+	margin-top: 23px;
+
+	font-size: 18px;
+	line-height: 1.56;
+}
+.post-button {
+	min-width: 196px;
+	margin-top: 24px;
+
+	background-color: #0284d0;
+	border-radius: 5px;
+	border: 1px solid var(--base-text-color);
+}
+.post-link {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 1.55;
+	color: #ffffff;
+	padding: 10px 36px 11px 37px;
+}
+.post-img {
+	display: block;
+}
 
 /* ------------------- TEAM SECTION ----------------- */
 .team {
-	background: #E5E5E5;
-
+	background: #e5e5e5;
 }
 .team-container {
 	outline: 2px solid tomato;
@@ -276,7 +321,7 @@ ul {
 }
 /* ---------------- CALLBACK SECTION ----------------- */
 .callback {
-	background: #F4F4F4;
+	background: #f4f4f4;
 }
 .callback-container {
 	display: flex;
@@ -289,7 +334,7 @@ ul {
 .callback-title {
 	font-weight: 300;
 	font-size: 38px;
-	line-height: 1,26px;
+	line-height: 1, 26px;
 	color: var(--secondary-title-subtitle-color);
 }
 .callback-name {
@@ -297,8 +342,8 @@ ul {
 	align-items: flex-end;
 	height: 40px;
 	min-width: 620px;
-	background: #FFFFFF;
-	border: 1px solid #F5F5F5;
+	background: #ffffff;
+	border: 1px solid #f5f5f5;
 	border-radius: 0px;
 	margin-top: 32px;
 	font-size: 18px;
@@ -310,8 +355,8 @@ ul {
 	align-items: flex-end;
 	height: 40px;
 	min-width: 620px;
-	background: #FFFFFF;
-	border: 1px solid #F5F5F5;
+	background: #ffffff;
+	border: 1px solid #f5f5f5;
 	border-radius: 0px;
 	margin-top: 32px;
 	font-size: 18px;
@@ -325,7 +370,7 @@ ul {
 	border: 1px solid var(--base-green-background-color);
 	border-radius: 5px;
 	padding: 8px 295px;
-	font-family: 'Open Sans';
+	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 18px;
@@ -340,7 +385,7 @@ ul {
 	border-radius: 5px;
 	color: var(--third-text-color);
 }
-	
+
 /* --------------------- FOOTER ---------------------- */
 .footer {
 	background: #333333;
@@ -352,5 +397,5 @@ ul {
 	font-size: 18px;
 	line-height: 1.56;
 	text-align: center;
-	color: #FFFFFF;
+	color: #ffffff;
 }
