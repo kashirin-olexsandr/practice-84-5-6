@@ -168,8 +168,9 @@ ul {
 .solutions-btn:hover,
 .solutions-btn:focus {
 	cursor: pointer;
-	border: 1px solid var(--base-green-background-color);
+	border: 1px solid var(--third-text-color);
 	border-radius: 5px;
+	color: var(--third-text-color);
 }
 
 .solutions-wrapper {
@@ -177,6 +178,61 @@ ul {
 	padding: 80px 64px 80px 20px;
 	width: 50%;
 }	
+
+/* ---------------BUSINESS CASES SECTION------------- */
+
+.business {	
+
+}
+
+.business-container {
+	padding: 80px 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.business-wrapper {
+}
+.dusiness-subtitle {
+	font-size: 20px;
+	line-height: 1.65;
+	text-align: center;
+	color: var(--secondary-title-subtitle-color);
+
+}
+.dusiness-title {
+	font-weight: 300;
+	font-size: 38px;
+	line-height: 1,26;
+	text-align: center;
+	color: var(--secondary-title-subtitle-color);
+	margin-top: 24;
+}
+.dusiness-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.56;
+	text-align: center;
+	color: var(--third-text-color);
+	margin-top: 24px;
+}
+.dusiness-list {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 24px;
+	row-gap: 24px;
+	column-gap: 21px;
+}
+
+.dusiness-item {
+	display: flex;
+	flex-basis: calc((100% - 42) / 3);
+}
+
+
+
 /* -------------------- BLOG POST ------------------- */
 
 /* ------------------- TEAM SECTION ----------------- */
