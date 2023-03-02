@@ -166,10 +166,11 @@ ul {
 /* hover and focus effect button*/
 .solutions-btn:hover,
 .solutions-btn:focus {
+	background-color: #ffffff;
 	cursor: pointer;
-	border: 1px solid var(--third-text-color);
+	border: 1px solid #ffffff;
 	border-radius: 5px;
-	color: var(--third-text-color);
+	color: var(--base-green-background-color);
 }
 
 .solutions-wrapper {
@@ -279,6 +280,17 @@ ul {
 }
 .post-img {
 	display: block;
+}
+
+.post-button:hover,
+.post-button:focus {
+	background-color: #ffffff;
+	color: #0284d0;
+}
+
+.post-link:hover,
+.post-link:focus {
+	color: inherit;
 }
 
 /* ------------------- TEAM SECTION ----------------- */
