@@ -8,7 +8,10 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+		/>
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
@@ -52,20 +55,21 @@
 						<p class="solutions-text"
 							>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
 							asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus
-							iste maiores deleniti?</p>
+							iste maiores deleniti?</p
+						>
 						<button class="solutions-btn" type="button">Read More</button>
-				 	</div>
+					</div>
 				</div>
 			</section>
 			<!---------------------- /SOLUTIONS SECTION ------------------->
 			<!------------------- BUSINESS CASES SECTION ------------------>
 			<section class="business">
-			<div class="container business-container">
-				<div class="business-wrapper">
+				<div class="container business-container">
+					<div class="business-wrapper">
 						<p class="dusiness-subtitle">This is what we do</p>
 						<h2 class="dusiness-title">Business Cases</h2>
 						<p class="dusiness-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-				</div>
+					</div>
 					<ul class="dusiness-list">
 						<li class="dusiness-item"><img class="team-card-img" src="./image/BC1.jpg" alt="BisCase1" /></li>
 						<li class="dusiness-item"><img class="team-card-img" src="./image/BC2.jpg" alt="BisCase2" /></li>
@@ -74,20 +78,28 @@
 						<li class="dusiness-item"><img class="team-card-img" src="./image/BC5.jpg" alt="BisCase5" /></li>
 						<li class="dusiness-item"><img class="team-card-img" src="./image/BC6.jpg" alt="BisCase6" /></li>
 					</ul>
-			</div>
+				</div>
 			</section>
 			<!------------------- /BUSINESS CASES SECTION ------------------>
 			<!--------------------------- BLOG POST ------------------------>
-			<section>
-				<p>April 16 2020</p>
-				<h2>Blog Post One</h2>
-				<p
-					>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
-					asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus iste
-					maiores deleniti?
-				</p>
-				<a href="#">Read our Block</a>
-				<img src="./image/blockpost.jpg" alt="post" />
+			<section class="post-page">
+				<div class="container">
+					<div class="post-page-container">
+						<div class="post-wrapper">
+							<p class="post-subtitle">April 16 2020</p>
+							<h2 class="post-title">Blog Post One</h2>
+							<p class="post-text"
+								>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum dignissimos quae laudantium
+								asperiores nam aliquid impedit harum illum dolore explicabo ab dolores itaque rerum temporibus doloribus
+								iste maiores deleniti?
+							</p>
+							<button class="post-button" type="button" href="#"
+								><a class="post-link" href="">Read our Block</a></button
+							>
+						</div>
+						<img class="post-img" src="./image/blockpost.jpg" alt="post" />
+					</div>
+				</div>
 			</section>
 			<!--------------------------- /BLOG POST ------------------------>
 			<!-------------------------- TEAM SECTION ----------------------->
@@ -96,48 +108,65 @@
 					<p class="team-subtitle">Who we are</p>
 					<h2 class="team-title">Our Professional Team</h2>
 					<p class="team-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!</p>
-					<di>
+					<div>
 						<ul class="team-list">
 							<li class="team-card">
-								<img class="team-card-img" src="./image/John-Doe-foto-min.jpg" alt="fohn-doe-foto" width="422" height="286" />
+								<img
+									class="team-card-img"
+									src="./image/John-Doe-foto-min.jpg"
+									alt="fohn-doe-foto"
+									width="422"
+									height="286"
+								/>
 								<h3 class="team-card-title">John Doe</h3>
 								<p class="team-card-text">President</p>
 							</li>
 							<li class="team-card">
-								<img class="team-card-img" src="./image/Jane-Doe-foto-min.jpg" alt="jane-doe-foto" width="422" height="286" />
+								<img
+									class="team-card-img"
+									src="./image/Jane-Doe-foto-min.jpg"
+									alt="jane-doe-foto"
+									width="422"
+									height="286"
+								/>
 								<h3 class="team-card-title">Jane Doe</h3>
 								<p class="team-card-text">Vice President</p>
 							</li>
 							<li class="team-card">
-								<img class="team-card-img" src="./image/Steve-Smith-foto-min.jpg" alt="steve-smith-foto" width="422" height="286" />
+								<img
+									class="team-card-img"
+									src="./image/Steve-Smith-foto-min.jpg"
+									alt="steve-smith-foto"
+									width="422"
+									height="286"
+								/>
 								<h3 class="team-card-title">Steve Smith</h3>
 								<p class="team-card-text">Marketing Head</p>
 							</li>
-							
 						</ul>
-				</di >
+					</div>
 				</div>
 			</section>
 			<!------------------------- /TEAM SECTION ----------------------->
 			<!------------------------ CALLBACK SECTION --------------------->
-			<section class="callback">
+			<!-- <section class="callback">
 				<div class="container callback-container">
 					<img class="callback-img" src="./image/foto-callback.jpg" alt="foto-callback" width="670" height="454">
 					<div class="callback-content">
 						<h2 class="callback-title">Request Callback</h2>
-						<p class="callback-name">Enter your name</p>
+						<p class="callback-name">Enter your name</p>			////// Не правильно сверстаный блок. 
 						<p class="callback-email">Enter email*</p>
 						<button class="callback-btn" type="button">Send</button>
 					</div>
 				</div>
-			</section>
+			</section> -->
 			<!----------------------- /CALLBACK SECTION --------------------->
 		</main>
 		<!---------------------------- FOOTER SECTION ----------------------->
 		<footer class="footer">
 			<div class="container footer-container">
 				<p class="footer-text">Copyright&copy 2021 - FinanceLedger</p>
-			</div >
+			</div>
 		</footer>
 		<!--------------------------- /FOOTER SECTION ----------------------->
 	</body>
