@@ -46,7 +46,8 @@ ul {
 	padding: 0 28px 0 28px;
 }
 .page-header {
-	background: black;
+	position: absolute;
+	width: 100%;
 }
 .header-nav {
 	display: flex;
@@ -77,8 +78,17 @@ ul {
 	color: var(--base-text-color);
 }
 /* ---------------------- HERO SECTION ------------------- */
+.hero {
+	background-color: rgba(0, 0, 0, 0.8);
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../image/bg-im.png);
+	height: 100%;
+	width: 1360px;
+	margin: auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .hero-container {
-	background-color: brown;
 	padding: 287px;
 	text-align: center;
 	margin-left: auto;
