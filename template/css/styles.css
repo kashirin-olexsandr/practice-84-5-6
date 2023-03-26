@@ -129,7 +129,7 @@ ul {
 	border-radius: 5px;
 } */
 /* --------------------- SOLUTIONS SECTION --------------------- */
-.solutions {
+/* .solutions {
 }
 .solutions-container {
 	display: flex;
@@ -173,7 +173,7 @@ ul {
 	min-width: 168px;
 }
 
-/* hover and focus effect button*/
+
 .solutions-btn:hover,
 .solutions-btn:focus {
 	background-color: #ffffff;
@@ -187,7 +187,7 @@ ul {
 	background-color: var(--base-green-background-color);
 	padding: 80px 64px 80px 20px;
 	width: 50%;
-}
+} */
 
 /* ---------------BUSINESS CASES SECTION------------- */
 
