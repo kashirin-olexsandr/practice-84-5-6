@@ -78,7 +78,7 @@ ul {
 	color: var(--base-text-color);
 } */
 /* ---------------------- HERO SECTION ------------------- */
-.hero {
+/* .hero {
 	background-color: rgba(0, 0, 0, 0.8);
 	background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../image/bg-im.png);
 	height: 100%;
@@ -92,9 +92,9 @@ ul {
 	padding: 287px;
 	text-align: center;
 	margin-left: auto;
-	margin-right: auto; /* / Задублированая команда . У тебя на контайнере стоит марджин */
-}
-.hero-title {
+	margin-right: auto;
+} */
+/* .hero-title {
 	font-weight: 300;
 	font-size: 55px;
 	line-height: 1.2;
@@ -120,14 +120,14 @@ ul {
 	border-radius: 5px;
 	border-color: var(--base-green-background-color);
 	min-width: 168px;
-}
+} */
 /* hover and focus effect button*/
-.hero-btn:hover,
+/* .hero-btn:hover,
 .hero-btn:focus {
 	cursor: pointer;
 	border: 1px solid var(--base-text-color);
 	border-radius: 5px;
-}
+} */
 /* --------------------- SOLUTIONS SECTION --------------------- */
 .solutions {
 }

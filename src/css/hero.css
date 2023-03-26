@@ -1,0 +1,53 @@
+.hero {
+    background-color: rgba(0, 0, 0, 0.8);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../image/bg-im.png);
+    height: 100%;
+    width: 1360px;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero {
+    padding: 287px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 300;
+    font-size: 55px;
+    line-height: 1.2;
+    color: var(--base-title-subtitle-color);
+}
+
+.hero-description {
+    font-size: 22px;
+    line-height: 1, 67;
+    color: var(--secondary-text-color);
+    margin-top: 24px;
+}
+
+.hero-btn {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: center;
+    color: var(--base-text-color);
+    margin-top: 32px;
+    padding: 10px 28px;
+    background: var(--base-green-background-color);
+    border-radius: 5px;
+    border-color: var(--base-green-background-color);
+    min-width: 168px;
+}
+
+/* hover and focus effect button*/
+.hero-btn:hover,
+.hero-btn:focus {
+    cursor: pointer;
+    border: 1px solid var(--base-text-color);
+    border-radius: 5px;
+}
