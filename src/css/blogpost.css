@@ -1,0 +1,62 @@
+/* -------------------- BLOG POST ------------------- */
+
+.post-page {
+  color: #ffffff;
+}
+.post-page-container {
+  display: flex;
+}
+
+.post-wrapper {
+  background-color: #0284d0;
+  padding: 80px 56px 80px 28px;
+}
+.post-subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+
+  color: #ffffff;
+}
+.post-title {
+  margin-top: 9px;
+
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+.post-text {
+  margin-top: 23px;
+
+  font-size: 18px;
+  line-height: 1.56;
+}
+.post-button {
+  min-width: 196px;
+  margin-top: 24px;
+
+  background-color: #0284d0;
+  border-radius: 5px;
+  border: 1px solid var(--base-text-color);
+}
+.post-link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.55;
+  color: #ffffff;
+  padding: 10px 36px 11px 37px;
+}
+.post-img {
+  display: block;
+}
+
+.post-button:hover,
+.post-button:focus {
+  background-color: #ffffff;
+  color: #0284d0;
+}
+
+.post-link:hover,
+.post-link:focus {
+  color: inherit;
+}
