@@ -10,7 +10,7 @@
 	--base-green-background-color: #28a745;
 }
 
-body {
+/* body {
 	font-family: "Open Sans", sans-serif;
 }
 h1,
@@ -31,18 +31,18 @@ ul {
 	width: 1360px;
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
 /* foto full */
 
-.team-card-img {
+/* .team-card-img {
 	display: block;
 	max-width: 100%;
 	height: auto;
-}
+} */
 
 /* --------------------- HEADER  --------------  */
-.header-container {
+/* .header-container {
 	padding: 0 28px 0 28px;
 }
 .page-header {
@@ -76,7 +76,7 @@ ul {
 	font-size: 35px;
 	line-height: 1.2;
 	color: var(--base-text-color);
-}
+} */
 /* ---------------------- HERO SECTION ------------------- */
 .hero {
 	background-color: rgba(0, 0, 0, 0.8);
