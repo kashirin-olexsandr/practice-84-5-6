@@ -191,9 +191,9 @@ ul {
 
 /* ---------------BUSINESS CASES SECTION------------- */
 
-.business {
+
 	/*  Пустые классы должны быть закоментированы */
-}
+/* 
 
 .business-container {
 	padding: 80px 24px;
@@ -238,7 +238,7 @@ ul {
 .dusiness-item {
 	display: flex;
 	flex-basis: calc((100% - 42) / 3);
-}
+} */
 
 /* -------------------- BLOG POST ------------------- */
 
